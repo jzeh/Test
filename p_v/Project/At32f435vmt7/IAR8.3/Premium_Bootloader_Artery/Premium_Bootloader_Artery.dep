@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>3291111740</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\src\at32f435_437_usart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\src\at32f435_437_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\CMSIS\cm4\device_support\startup\iar\startup_at32f435_437.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\src\at32f435_437_tmr.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\Autolink_Bootloader\GIT_Boot_Util.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\src\at32f435_437_misc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\src\at32f435_437_spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\src\at32f435_437_flash.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\src\at32f435_437_crm.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\CMSIS\cm4\device_support\system_at32f435_437.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\at32f435_437_int.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\Common_GIT\inc\GIT_OemInterface.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\at32f435_437_misc.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\Common_GIT\AesEncrypt_CBC\stddef.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalHandler.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\at32f435_437_misc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\at32f435_437_spi.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalUartDriver.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_emac.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalGpioDriver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\at32f435_437_usart.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_gpio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\at32f435_437_usart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_at32f435_437.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_exint.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalPowerDriver.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalAdcDriver.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_dvp.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\at32f435_437_conf.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalMiscDriver.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\Autolink_main\inc\main.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalLedDriver.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_acc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalGpioDriver.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_wdt.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_i2c.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Common_GIT\SerialFlash\SPIDriverMicron.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_dac.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalUartDriver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\at32f435_437_tmr.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\at32f435_437_int.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\at32f435_437_gpio.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_crm.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalTimerDriver.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\Autolink_main\inc\Message_Manager.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\ArteryP_Bootloader_V5xxx.bin</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_misc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Premium_Bootloader_Artery.icf</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalFlashDriver.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\Middleware\FileSystem\fat_fs\inc\ff.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_def.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_usb.h</file>
+            <file>$PROJ_DIR$\Debug\List\ArteryP_Bootloader_V5xxx.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalHandler.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\at32f435_437_tmr.pbi</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalTimerDriver.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\at32f435_437_flash.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalSPIDriver.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_scfg.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\CMSIS\cm4\device_support\AT32F435_437.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Common_GIT\inc\common.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_debug.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_qspi.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Common_GIT\SEED256\KISA_SEED_ECB.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\at32f435_437_int.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\at32f435_437_crm.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalGpioDriver.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\Common_Premium\inc\Modem_Comm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalUartDriver.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Autolink_main\inc\Autolink_Manager.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\at32f435_437_spi.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\Autolink_main\inc\DebugHandler.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_xmc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalLedDriver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\at32f435_437_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\at32f435_437_flash.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalTimerDriver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\at32f435_437_flash.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalRtcDriver.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalRccDriver.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_adc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalRccDriver.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_spi.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_sdio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalTimerWatchDoc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalHandler.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Autolink_main\inc\MngStorage.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Middleware\FileSystem\fat_fs\inc\integer.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Common_GIT\inc\GIT_PassthruDefines.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HAL_Safe_types.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_tmr.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\at32f435_437_int.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalFlashDriver.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\at32f435_437_misc.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\Common_GIT\inc\GIT_InterProtocol.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_can.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\at32f435_437_int.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalHandler.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalExIntDriver.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\core_cm4.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Common_GIT\inc\GIT_BluetoothLowEnergy.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_dma.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalUartDriver.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_wwdt.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalLedDriver.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalFlashDriver.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\Autolink_main\inc\AutolinkMessage.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalMiscDriver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_at32f435_437.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\GIT_Boot_Util.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HAL_safe_limits.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_usart.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iar_intrinsics_common.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Common_GIT\inc\SysHalFileSystem.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Common_GIT\inc\GIT_VCI.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_at32f435_437.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\GIT_Boot_Util.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalDmaDriver.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\at32f435_437_gpio.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_crc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalRccDriver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\at32f435_437_crm.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_flash.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\at32f435_437_spi.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_at32f435_437.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_ertc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\at32f435_437_usart.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\at32f435_437_tmr.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalMiscDriver.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_edma.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\inc\at32f435_437_pwc.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Autolink_main\inc\UARTDMA_Manager.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Autolink_main\inc\HdDebug.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\ArteryP_Bootloader_V5xxx.out</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalFlashDriver.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalI2CDriver.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalTimerDriver.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalCanDriver.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Middleware\FileSystem\fat_fs\inc\ffconf.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\CMSIS\cm4\device_support\system_at32f435_437.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalMiscDriver.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalLedDriver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\Common_GIT\inc\GIT_Util.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\at32f435_437_crm.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalRccDriver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\GIT_Boot_Util.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalMiscDriver.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalFlashDriver.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalRccDriver.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalTimerDriver.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalUartDriver.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\HalHandler.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\Autolink_main\main.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalGpioDriver.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalGpioDriver.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\Autolink_main\inc\AutolinkConfiguration.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalLedDriver.c</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 58 155</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\src\at32f435_437_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 21</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 144</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 66 67 90 46 37 39 69 35 62 160 143 150 94 136 95 149 29 147 111 102 22 127 109 41 116 139 119 25 82 51 70 19 57 114 30 163 162 56 151 134 60 27 93 154</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 46 67 114 147 111 160 134 60 27 163 62 93 154 151 162 56 102 143 22 39 127 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\src\at32f435_437_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 135</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67 162 134 60 147 56 151 160 27 93 154 46 102 143 22 39 127 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57 114 30 163 62 111</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 46 67 114 147 111 160 134 60 27 163 62 93 154 151 162 56 102 143 22 39 127 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\CMSIS\cm4\device_support\startup\iar\startup_at32f435_437.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 124</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\src\at32f435_437_tmr.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 146</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67 154 56 151 147 160 27 93 162 134 60 46 102 143 22 39 127 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57 114 30 163 62 111</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 46 67 114 147 111 160 134 60 27 163 62 93 154 151 162 56 102 143 22 39 127 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\Autolink_Bootloader\GIT_Boot_Util.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 125</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 170</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 132</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 156 111 181 92 77 114 67 68 97 39 26 96 105 30 154 161 79 167 28 157 65 133 160 27 101 145 163 93 179 55 100 89 159 120 88 164 113 63 142 134 60 15 38 126 147 62 127 108 49 78 162 56 151 46 102 143 22 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57 33 122 71 40 129 98 99 130</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 97 92 111 160 134 60 27 142 68 105 38 78 145 15 126 101 67 114 147 163 62 93 154 151 162 56 30 46 102 143 22 39 127 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57 89 28 159 156 179 157 120 26 88 65 164 77 113 133 63 96 167 33 79 49 122 181 129 55 99 161 98 108 130 100 71 40</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\src\at32f435_437_misc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 12</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 90 66 46 37 39 69 35 67 62 160 143 150 94 136 95 149 29 147 111 102 22 127 109 41 116 139 119 25 82 51 70 19 57 114 30 163 162 56 151 134 60 27 93 154</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 46 67 114 147 111 160 134 60 27 163 62 93 154 151 162 56 102 143 22 39 127 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\src\at32f435_437_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 17</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 140</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 80</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 162 67 134 147 60 56 151 160 27 93 154 46 102 143 22 39 127 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57 114 30 163 62 111</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 46 67 114 147 111 160 134 60 27 163 62 93 154 151 162 56 102 143 22 39 127 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\src\at32f435_437_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 87</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 64</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67 60 162 134 147 56 151 160 27 93 154 46 102 143 22 39 127 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57 114 30 163 62 111</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 46 67 114 147 111 160 134 60 27 163 62 93 154 151 162 56 102 143 22 39 127 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\AT32F43x_StdPeriph_Driver\src\at32f435_437_crm.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 168</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 74</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 138</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 109 67 70 119 163 22 116 82 57 102 127 41 139 25 51 19 114 30 46 143 39 150 90 94 69 136 37 95 35 149 66 29 147 62 111 160 162 56 151 134 60 27 93 154</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 46 67 114 147 111 160 134 60 27 163 62 93 154 151 162 56 102 143 22 39 127 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\CMSIS\cm4\device_support\system_at32f435_437.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 141</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 24</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 131</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67 162 134 60 147 56 151 160 27 93 154 114 30 163 62 111 46 102 143 22 39 127 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67 114 147 111 160 134 60 27 163 62 93 154 151 162 56 30 46 102 143 22 39 127 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\at32f435_437_int.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 110</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67 82 126 147 22 28 116 57 15 160 109 119 70 68 56 151 102 127 41 139 25 51 19 65 142 162 46 143 39 150 90 94 69 136 37 95 35 149 66 29 157 133 111 38 97 114 30 163 62 134 60 27 93 154 92 156 26 77 96 105 101 145 78 103 89 159 179 120 88 164 113 63</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 103 67 114 147 111 160 134 60 27 163 62 93 154 151 162 56 30 46 102 143 22 39 127 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57 97 92 142 68 105 38 78 145 15 126 101 89 28 159 156 179 157 120 26 88 65 164 77 113 133 63 96</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\ArteryP_Bootloader_V5xxx.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 50</file>
+                </tool>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 53 74 85 45 44 16 140 43 23 170 54 75 112 83 123 91 158 118 52 124 24 106 117 32 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalMiscDriver.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 148</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 123</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 31</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 94 145 164 160 29 97 159 27 101 163 93 143 95 67 68 127 120 63 142 105 111 114 30 154 150 136 149 89 179 88 113 134 60 15 38 126 147 62 46 39 90 69 37 35 66 51 92 28 156 157 26 65 77 133 96 78 162 56 151 102 22 109 41 116 139 119 25 82 70 19 57</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 164 97 92 111 160 134 60 27 142 68 105 38 78 145 15 126 101 67 114 147 163 62 93 154 151 162 56 30 46 102 143 22 39 127 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57 89 28 159 156 179 157 120 26 88 65 77 113 133 63 96</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalFlashDriver.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 121</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 68 30 27 154 67 78 111 114 133 142 160 145 163 93 157 73 92 126 134 60 38 147 62 28 65 97 139 105 15 101 162 56 151 39 156 26 77 96 46 102 143 22 127 150 109 90 41 94 116 69 136 119 37 25 95 82 35 51 149 70 66 19 29 57 89 159 179 120 88 164 113 63 128</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 156 68 92 111 160 134 60 27 142 105 38 78 145 15 126 101 67 114 147 163 62 93 154 151 162 56 30 46 102 143 22 39 127 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57 97 89 28 159 179 157 120 26 88 65 164 77 113 133 63 96 73 128</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalRccDriver.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 169</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 91</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 137</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 160 77 147 92 111 127 56 151 156 142 97 46 162 67 39 26 96 78 68 114 30 163 62 134 60 27 93 154 28 157 65 133 126 179 102 143 22 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57 89 159 120 88 164 113 63 105 15 101 38 145</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67 114 147 111 160 134 60 27 163 62 93 154 151 162 56 30 46 102 143 22 39 127 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57 97 92 142 68 105 38 78 145 15 126 101 89 28 159 156 179 157 120 26 88 65 164 77 113 133 63 96</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalTimerDriver.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 158</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30 77 114 154 92 111 127 163 27 93 156 142 97 147 62 134 60 67 39 26 96 78 160 68 63 162 56 151 28 157 65 133 126 179 46 102 143 22 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57 89 159 120 88 164 113 105 15 101 38 145</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67 114 147 111 160 134 60 27 163 62 93 154 151 162 56 30 46 102 143 22 39 127 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57 97 92 142 68 105 38 78 145 15 126 101 89 28 159 156 179 157 120 26 88 65 164 77 113 133 63 96</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalUartDriver.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 18</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67 96 160 39 62 26 78 68 97 79 147 111 134 60 92 156 77 142 127 181 167 152 114 30 163 27 93 154 28 157 65 133 126 179 49 55 161 108 100 76 153 162 56 151 46 102 143 22 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57 89 159 120 88 164 113 63 105 15 101 38 145 122 129 98 99 33 71 40 130 81</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67 114 147 111 160 134 60 27 163 62 93 154 151 162 56 30 46 102 143 22 39 127 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57 97 92 142 68 105 38 78 145 15 126 101 89 28 159 156 179 157 120 26 88 65 164 77 113 133 63 96 79 49 122 181 129 55 99 161 98 76 167 33 108 130 100 71 40 152 153 81</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\HalHandler.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 14</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 27 39 26 35 96 78 62 69 67 68 142 160 92 156 77 126 147 111 46 90 37 66 13 134 60 28 157 65 133 114 30 163 93 154 143 150 94 136 95 149 29 97 145 89 159 179 120 88 164 113 63 105 15 101 38 162 56 151 102 22 127 109 41 116 139 119 25 82 51 70 19 57</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92 111 160 134 60 27 142 78 145 13 97 68 105 38 15 126 101 67 114 147 163 62 93 154 151 162 56 30 46 102 143 22 39 127 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57 89 28 159 156 179 157 120 26 88 65 164 77 113 133 63 96</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\Autolink_main\main.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 166</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 171</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 90 67 100 33 66 40 46 37 63 98 115 122 142 39 69 35 120 78 97 153 105 71 92 15 111 160 162 143 150 94 136 95 149 29 68 129 159 164 81 167 11 108 181 101 56 147 151 102 22 127 109 41 116 139 119 25 82 51 70 19 57 89 179 88 113 99 130 79 126 134 60 27 38 145 114 30 163 62 93 154 49 28 156 157 26 65 77 133 96 55 161</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 167 33 68 92 111 160 134 60 27 142 105 38 78 145 15 126 101 67 114 147 163 62 93 154 151 162 56 30 46 102 143 22 39 127 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57 79 49 122 181 97 89 28 159 156 179 157 120 26 88 65 164 77 113 133 63 96 129 55 99 161 98 108 130 100 71 40 153 81 11 115</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalGpioDriver.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 20</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46 78 111 67 37 25 142 90 66 120 181 68 79 160 162 39 69 35 63 122 97 92 126 143 150 94 136 95 149 29 159 164 98 11 22 134 60 27 105 15 101 38 145 114 147 56 151 102 127 109 41 116 139 119 82 51 70 19 57 89 179 88 113 129 99 30 163 62 93 154 28 156 157 26 65 77 133 96 49 55 161</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92 111 160 134 60 27 142 68 105 38 78 145 15 126 101 67 114 147 163 62 93 154 151 162 56 30 46 102 143 22 39 127 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57 97 89 28 159 156 179 157 120 26 88 65 164 77 113 133 63 96 11 79 49 122 181 129 55 99 161 98</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalLedDriver.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 165</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 83</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 34</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67 97 68 133 145 179 142 160 78 163 93 157 105 161 79 92 126 111 27 114 30 154 28 65 127 108 49 55 100 115 15 101 134 60 38 147 62 39 156 26 77 96 181 120 162 56 151 46 102 143 22 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57 89 159 88 164 113 63 167 33 122 71 40 129 98 99 130</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120 68 92 111 160 134 60 27 142 105 38 78 145 15 126 101 67 114 147 163 62 93 154 151 162 56 30 46 102 143 22 39 127 150 109 90 41 94 116 69 139 136 119 37 25 95 82 35 51 149 70 66 19 29 57 97 89 28 159 156 179 157 26 88 65 164 77 113 133 63 96 115 167 33 79 49 122 181 129 55 99 161 98 108 130 100 71 40</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+</project>

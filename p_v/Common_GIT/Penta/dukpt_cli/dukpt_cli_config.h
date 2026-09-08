@@ -1,0 +1,12 @@
+#ifndef DUKPT_CLI_CONFIG_H
+#define DUKPT_CLI_CONFIG_H
+
+#define DUKPT_CLIENT_NOT_OS
+#define DUKPT_NOT_IO 		// SPARROW
+
+/* #define DUKPT_CLIENT_PKAUTH_STRING */
+/* #define DUKPT_CLIENT_TR31_STD */
+/* #define DUKPT_CLIENT_ZERO_PADDING */
+/* #define DUKPT_CLIENT_ENCRYPT_ALLOC */
+
+#endif

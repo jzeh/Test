@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\ArteryP_Application\ELS\ArteryP_Application_ELS.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\ArteryP_Application\PLS\ArteryP_Application_PLS.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\ArteryP_Bootloader\ArteryP_Bootloader.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

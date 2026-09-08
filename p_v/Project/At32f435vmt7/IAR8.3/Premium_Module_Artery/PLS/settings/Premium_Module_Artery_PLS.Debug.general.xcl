@@ -1,0 +1,15 @@
+"Z:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armproc.dll" 
+
+"Z:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armJET.dll" 
+
+"Z:\11_Work\00_Git_Source\01_Connectivity\premium_integrated\Project\At32f435vmt7\IAR8.3\Premium_Module_Artery\PLS\Debug\Exe\ArteryP63_Application_V5xxx.out" 
+
+--plugin="Z:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armbat.dll" 
+
+--device_macro="Z:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\config\debugger\ArteryTek\AT32F435xx.dmac" 
+
+--flash_loader="Z:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\config\flashloader\ArteryTek\AT32F435\AT32F435VMT7\FlashAT32F435VMT7.board" 
+
+
+
+

@@ -1,0 +1,47 @@
+# IAR EWARM build output
+**/EWARM/**/Obj/
+**/EWARM/**/List/
+**/EWARM/**/Exe/
+
+# IAR EWARM backup files
+**/Backup *
+*.bak
+
+# IAR EWARM user-specific settings
+**/EWARM/settings/
+**/settings/*.wsdt
+**/settings/*_EditorBookmarks.xml
+
+# IAR EWARM build cache/browse info
+**/EWARM/**/.ninja_deps
+**/EWARM/**/.ninja_log
+**/EWARM/**/BrowseInfo/
+**/EWARM/**/.*.build_cache
+*.pbi
+*.pbd
+*.pbd.browse
+*.pbw
+
+# IAR EWARM temporary/debug files
+*.dep
+*.wsdt
+*_EditorBookmarks.xml
+*.eww.bak
+
+# Excel temp files
+~$*.xlsx
+
+# STM32CubeMX generated backup
+**/Src/main.c.bak
+**/Inc/main.h.bak
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE files
+.vscode/
+*.code-workspace
+
+# Claude Code
+**/.claude/

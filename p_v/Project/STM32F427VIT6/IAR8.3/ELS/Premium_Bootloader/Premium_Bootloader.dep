@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>2411759432</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalRccDriver.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalTimerDriver.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalUartDriver.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\HalHandler.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Autolink_main\main.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalFlashDriver.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalGpioDriver.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalLedDriver.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Autolink_Bootloader\GIT_Boot_Util.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\stm32f4xx_it.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalMiscDriver.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f427x.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\inc\GIT_SensorProc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalRtcDriver.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\Penta\dukpt_common\dukpt.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\SerialFlash\SPIDriverMicron.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalFlashDriver.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\GIT_GPS_LGPL\nmealib-0.5.3\nmealib\include\nmea\time.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middleware\FileSystem\fat_fs\inc\ff.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalLedDriver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalUartDriver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_flash.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\inc\common.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Autolink_main\inc\UARTDMA_Manager.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_gpio.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middleware\FileSystem\fat_fs\inc\ffconf.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalUartDriver.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalCanDriver.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\GIT_Boot_Util.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\inc\SysHalFileSystem.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\ST\stm32f427xI.icf</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HAL_Safe_types.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalTimerDriver.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalHandler.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\GIT_GPS_LGPL\nmealib-0.5.3\nmealib\include\nmea\config.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Autolink_main\inc\main.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\misc.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\misc.o</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalTimerDriver.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_rcc.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Autolink_main\inc\MngStorage.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\inc\GIT_Gps.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\GIT_GPS_LGPL\nmealib-0.5.3\nmealib\include\nmea\nmea.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Autolink_main\inc\HdDebug.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Autolink_main\inc\Autolink_Manager.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalDmaDriver.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Autolink_main\inc\AutolinkMessage.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\CMSIS\cm4\core_support\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalLedDriver.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_usart.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_tim.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalI2CDriver.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\GIT_GPS_LGPL\nmealib-0.5.3\nmealib\include\nmea\generator.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\Penta\dukpt_cli\dukpt_cli_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Autolink_main\inc\AutolinkConfig.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\SEED256\KISA_SEED_ECB.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalRccDriver.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HAL_safe_limits.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalUartDriver.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\GIT_GPS_LGPL\nmealib-0.5.3\nmealib\include\nmea\info.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_it.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalFlashDriver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\CMSIS\cm4\core_support\cmsis_version.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\GIT_Boot_Util.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalGpioDriver.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalMiscDriver.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middleware\FileSystem\fat_fs\inc\integer.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\GIT_Boot_Util.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_usart.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\CMSIS\cm4\core_support\core_cm4.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_rcc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalRccDriver.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\inc\GIT_Util.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\inc\GIT_VCI.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalFlashDriver.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\CMSIS\cm4\core_support\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalGpioDriver.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\inc\STM32F4xx_usart.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalHandler.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalRccDriver.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\GIT_GPS_LGPL\nmealib-0.5.3\nmealib\include\nmea\sentence.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalLedDriver.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_tim.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\misc.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\stm32f4xx_it.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalExIntDriver.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalMiscDriver.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\GIT_GPS_LGPL\nmealib-0.5.3\nmealib\include\nmea\units.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f4xx.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Autolink_main\inc\Power_Manager.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\GIT_GPS_LGPL\nmealib-0.5.3\nmealib\include\nmea\context.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalMiscDriver.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_gpio.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalLedDriver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f4xx.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_flash.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalSPIDriver.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalGpioDriver.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\inc\GIT_PassthruDefines.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_Premium\inc\Modem_Comm.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalTimerDriver.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\stm32f4xx_conf.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iar_intrinsics_common.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\inc\GIT_BluetoothLowEnergy.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_rcc.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalHandler.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\Premium_Bootloader.out</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Autolink_main\inc\Message_Manager.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalMiscDriver.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\inc\GIT_OemInterface.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_flash.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Autolink_main\inc\DebugHandler.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalUartDriver.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\inc\GIT_InterProtocol.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalTimerWatchDoc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f4xx.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalGpioDriver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalFlashDriver.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\GIT_GPS_LGPL\nmealib-0.5.3\nmealib\include\nmea\parse.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalHandler.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\GIT_GPS_LGPL\nmealib-0.5.3\nmealib\include\nmea\parser.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\AT32F435VMT7\Libraries\CMSIS\cm4\core_support\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalRccDriver.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h</file>
+            <file>$PROJ_DIR$\Debug\List\Premium_Bootloader.map</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Autolink_main\inc\MngQueue.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_tim.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Autolink_main\inc\AutolinkConfiguration.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Autolink_main\inc\MngSystemUtil.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_usart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_it.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_it.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_stm32f427x.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HalTimerDriver.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Autolink_main\inc\MngSystem.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalPowerDriver.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\GIT_GPS_LGPL\nmealib-0.5.3\nmealib\include\nmea\generate.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\AutolinkP_Bootloader.bin</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_inc\HalAdcDriver.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\Penta\dukpt_cli\dukpt_cli.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Common_GIT\GIT_GPS_LGPL\nmealib-0.5.3\nmealib\include\nmea\gmath.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 164 143</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalRccDriver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 162</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 98</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 73</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63 96 30 79 84 142 180 145 87 161 102 114 60 184 136 61 131 36 120 129 169 43 80 125 173 107 163 175 90 104 123 64 166 141 71 118 29 42 177 174 77 75 76 40 106 188 35 101 89 67 109 185 20 130 115 78 113 57 50 154</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 142 30 63 79 173 154 84 180 131 104 141 184 169 90 185 174 136 145 102 120 80 163 123 101 78 118 29 64 96 87 161 60 114 61 36 129 43 125 107 175 166 188 67 130 57 71 76 89 106 35 109 20 115 113 50 42 75 40 177 77</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalTimerDriver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 182</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 135</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63 96 30 79 84 142 180 145 87 161 102 114 60 184 136 61 131 36 120 129 169 43 80 125 173 107 163 175 90 104 123 64 166 141 71 118 29 42 177 174 77 75 76 40 106 188 35 101 89 67 109 185 20 130 115 78 113 57 50 154</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63 67 184 90 177 169 84 29 30 79 142 180 131 173 57 141 136 145 102 120 80 163 123 188 130 75 118 76 50 96 87 161 60 114 61 36 129 43 125 107 175 104 64 166 101 185 78 154 42 40 77 174 71 106 35 89 109 20 115 113</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalUartDriver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 152</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63 96 30 79 84 142 180 145 87 161 102 114 60 184 136 61 131 36 120 129 169 43 80 125 173 107 163 175 90 104 123 64 166 141 71 118 29 42 177 174 77 75 76 40 106 188 35 101 89 67 109 185 20 130 115 78 113 57 50 154 56 144 59 168 38 25 92 33 52 134 99 46 153 100 133 72 22 31 55 151</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61 174 141 185 168 87 64 56 30 125 63 154 84 104 29 99 71 31 96 161 129 175 101 78 79 118 133 134 55 184 136 60 114 36 43 107 166 188 67 130 57 76 89 144 25 33 153 42 100 151 142 180 145 102 131 120 169 80 173 163 90 123 106 35 109 20 115 113 50 75 40 177 77 59 38 52 92 46 72 22</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\HalHandler.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 159</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71 79 84 142 180 145 118 174 77 81 141 29 42 177 75 76 40 63 96 30 87 161 102 114 60 184 136 61 131 36 120 129 169 43 80 125 173 107 163 175 90 104 123 64 166 106 188 35 101 89 67 109 185 20 130 115 78 113 57 50 154</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102 145 113 71 163 79 89 63 120 29 118 84 106 20 75 136 80 123 81 142 180 35 109 115 50 42 40 177 184 30 131 169 173 90 174 141 77 188 101 67 185 130 78 57 154 76 96 87 161 60 114 61 36 129 43 125 107 175 104 64 166</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Autolink_main\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 149</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 172</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 86</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 99 46 29 71 79 84 142 180 145 118 42 177 174 77 75 76 40 63 96 30 87 161 102 114 60 184 136 61 131 36 120 129 169 43 80 125 173 107 163 175 90 104 123 64 166 56 144 59 168 141 106 188 35 101 89 67 109 185 20 130 115 78 113 57 50 154 38 25 92 33 52 153 100 133 72 22 55 151 147 138</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 29 63 84 36 188 133 46 145 22 174 79 30 166 168 52 138 59 56 118 77 87 107 130 141 55 42 72 71 76 142 180 177 96 161 60 114 43 104 67 57 151 99 147 153 75 40 184 136 61 129 125 175 64 38 101 185 78 154 92 100 102 131 120 169 80 173 163 90 123 144 106 35 89 109 20 115 113 50 25 33</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalFlashDriver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 157</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 101 29 71 79 84 142 180 145 118 42 177 174 77 75 76 40 63 96 30 87 161 102 114 60 184 136 61 131 36 120 129 169 43 80 125 173 107 163 175 90 104 123 64 166 141 106 188 35 89 67 109 185 20 130 115 78 113 57 50 154 58 137</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84 80 29 63 75 79 136 123 57 118 102 120 163 67 58 42 40 184 30 131 169 173 90 188 130 114 141 129 71 174 76 142 180 145 177 77 96 87 161 60 61 36 43 125 107 175 104 64 166 101 185 78 154 106 35 89 109 20 115 113 50 137</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 117</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 155</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 127</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63 96 30 79 84 142 180 145 87 161 102 114 60 184 136 61 131 36 120 129 169 43 80 125 173 107 163 175 90 104 123 64 166</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36 63 30 166 96 79 107 114 84 43 104 184 136 61 129 125 175 64 87 161 60 142 180 145 102 131 120 169 80 173 163 90 123</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 128</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 148</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129 63 96 30 79 84 142 180 145 87 161 102 114 60 184 136 61 131 36 120 169 43 80 125 173 107 163 175 90 104 123 64 166</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107 184 79 63 30 36 166 114 84 43 104 96 136 61 129 125 175 64 87 161 60 142 180 145 102 131 120 169 80 173 163 90 123</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 94</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 169 63 96 30 79 84 142 180 145 87 161 102 114 60 184 136 61 131 36 120 129 43 80 125 173 107 163 175 90 104 123 64 166</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 136 125 61 64 184 129 175 63 173 96 30 79 114 84 36 43 107 104 166 169 87 161 60 142 180 145 102 131 120 80 163 90 123</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 171</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 95</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 65</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104 63 96 30 79 84 142 180 145 87 161 102 114 60 184 136 61 131 36 120 129 169 43 80 125 173 107 163 175 90 123 64 166</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 114 104 63 96 84 43 30 79 36 107 166 173 184 136 61 129 125 175 64 87 161 60 142 180 145 102 131 120 169 80 163 90 123</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalGpioDriver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 103</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 132</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 156</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71 79 84 142 180 145 118 29 42 177 174 77 75 76 40 63 96 30 87 161 102 114 60 184 136 61 131 36 120 129 169 43 80 125 173 107 163 175 90 104 123 64 166 141 106 188 35 101 89 67 109 185 20 130 115 78 113 57 50 154 147 56 144 59 168 38 25 92 33 52</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 174 79 166 120 118 102 36 63 130 168 29 56 84 136 107 188 59 141 71 76 184 30 43 104 67 57 52 147 169 142 180 145 42 75 40 177 77 96 87 161 60 114 61 129 125 175 64 101 185 78 154 38 92 131 80 173 163 90 123 106 35 89 109 20 115 113 50 144 25 33</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalLedDriver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 62</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 109 29 71 79 84 142 180 145 118 42 177 174 77 75 76 40 63 96 30 87 161 102 114 60 184 136 61 131 36 120 129 169 43 80 125 173 107 163 175 90 104 123 64 166 141 106 188 35 101 89 67 185 20 130 115 78 113 57 50 154 138 99 46 56 144 59 168 38 25 92 33 52 153 100 133 72 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30 174 79 63 89 29 104 145 90 118 84 77 87 169 71 113 141 153 42 33 56 76 142 180 177 96 161 131 173 106 20 144 25 133 138 75 40 184 136 102 120 80 163 123 35 109 115 50 168 60 114 61 36 129 43 125 107 175 64 166 188 101 67 185 130 78 57 154 99 46 59 72 22 38 52 92 100</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Autolink_Bootloader\GIT_Boot_Util.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 141 71 79 84 142 180 145 118 29 42 177 174 77 75 76 40 63 96 30 87 161 102 114 60 184 136 61 131 36 120 129 169 43 80 125 173 107 163 175 90 104 123 64 166 106 188 35 101 89 67 109 185 20 130 115 78 113 57 50 154 99 46 56 144 59 168 38 25 92 33 52 153 100 133 72 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 106 180 29 75 76 163 20 142 118 102 71 89 113 79 84 63 177 96 161 120 59 42 33 56 99 35 109 115 50 145 40 77 30 87 80 123 46 22 144 25 133 101 188 67 185 130 78 57 154 174 184 136 131 169 173 90 72 168 141 60 114 61 36 129 43 125 107 175 104 64 166 153 38 52 92 100</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\stm32f4xx_it.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 176</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 179</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 83</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112 63 96 30 79 84 142 180 145 87 161 102 114 60 184 136 61 131 36 120 129 169 43 80 125 173 107 163 175 90 104 123 64 166 46 29 71 118 42 177 174 77 75 76 40 56 144 59 168 141 106 188 35 101 89 67 109 185 20 130 115 78 113 57 50 154 38 25 92 33 52 119 183 70 170 165 19 153 100 133 189 21 69 99 72 22 53 54 45 139 116 190 82 24 108 186 68 158 160 121</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40 141 183 56 100 190 30 123 63 185 153 19 45 87 80 42 84 79 154 29 174 82 119 96 161 145 102 120 163 38 101 78 92 53 68 46 165 184 136 142 180 131 169 173 90 71 75 118 59 168 188 67 130 57 52 70 170 99 133 69 108 160 139 24 112 60 114 61 36 129 43 125 107 175 104 64 166 76 177 77 144 106 35 89 109 20 115 113 50 25 33 189 22 21 72 54 116 186 158 121</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\HAL_API\Hal_Driver\HalMiscDriver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 122</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 146</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 115 141 71 79 84 142 180 145 118 29 42 177 174 77 75 76 40 63 96 30 87 161 102 114 60 184 136 61 131 36 120 129 169 43 80 125 173 107 163 175 90 104 123 64 166 106 188 35 101 89 67 109 185 20 130 78 113 57 50 154</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77 107 63 115 84 87 35 145 40 36 166 104 109 50 118 42 79 30 60 114 43 29 71 106 89 20 113 142 180 75 177 76 96 161 61 129 125 175 64 141 188 101 67 185 130 78 57 154 174 184 136 102 131 120 169 80 173 163 90 123</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 97</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 140</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 173 63 96 30 79 84 142 180 145 87 161 102 114 60 184 136 61 131 36 120 129 169 43 80 125 107 163 175 90 104 123 64 166</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84 43 63 114 104 184 30 79 36 107 166 96 136 61 129 125 175 64 173 87 161 60 142 180 145 102 131 120 169 80 163 90 123</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64 63 96 30 79 84 142 180 145 87 161 102 114 60 184 136 61 131 36 120 129 169 43 80 125 173 107 163 175 90 104 123 166</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 184 61 136 125 129 175 63 96 30 79 114 84 36 43 107 104 166 87 161 60 142 180 145 102 131 120 169 80 173 163 90 123</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 110</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 167</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 66</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90 63 96 30 79 84 142 180 145 87 161 102 114 60 184 136 61 131 36 120 129 169 43 80 125 173 107 163 175 104 123 64 166</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84 43 63 184 114 104 30 79 36 107 166 173 136 61 129 125 175 64 90 96 87 161 60 142 180 145 102 131 120 169 80 163 123</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\DeviceHAL_GIT\BoardSupportPackage\STM32F427VIT6\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f427x.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 181</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\Premium_Bootloader.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 164</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 187</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 39 93 23 103 159 26 122 162 41 34 149 48 181 128 124 176 97 110 171 117 178 74 49 150</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs>
+            <file>$TOOLKIT_DIR$\lib\dl4t_tln.a</file>
+            <file>$TOOLKIT_DIR$\lib\m4t_tl.a</file>
+            <file>$PROJ_DIR$\Release\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Release\Exe\c.out</file>
+            <file>$TOOLKIT_DIR$\lib\rt4t_al.a</file>
+            <file>$PROJ_DIR$\Release\Obj\main.o</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$TOOLKIT_DIR$\config\generic.icf</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 3</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Release\Exe\c.out</name>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 7 5 4 1 0</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 5</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 2</file>
+                </tool>
+            </outputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+</project>

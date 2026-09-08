@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<settings>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <StLinkDriver>
+        <stlinkserialNo>26541287</stlinkserialNo>
+        <stlinkfoundProbes />
+        <stlinkResetStyle>0</stlinkResetStyle>
+        <stlinkResetStrategy>0</stlinkResetStrategy>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+    </StLinkDriver>
+    <DebugChecksum>
+        <Checksum>1478724573</Checksum>
+    </DebugChecksum>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <CodeCoverage>
+        <Enabled>_ 0</Enabled>
+    </CodeCoverage>
+    <Disassembly>
+        <InstrCount>0</InstrCount>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <SWOTraceHWSettings>
+        <OverrideDefaultClocks>0</OverrideDefaultClocks>
+        <CpuClock>240000000</CpuClock>
+        <ClockAutoDetect>0</ClockAutoDetect>
+        <ClockWanted>2000000</ClockWanted>
+        <JtagSpeed>2000000</JtagSpeed>
+        <Prescaler>120</Prescaler>
+        <TimeStampPrescIndex>0</TimeStampPrescIndex>
+        <TimeStampPrescData>0</TimeStampPrescData>
+        <PcSampCYCTAP>1</PcSampCYCTAP>
+        <PcSampPOSTCNT>15</PcSampPOSTCNT>
+        <PcSampIndex>0</PcSampIndex>
+        <DataLogMode>0</DataLogMode>
+        <ITMportsEnable>0</ITMportsEnable>
+        <ITMportsTermIO>0</ITMportsTermIO>
+        <ITMportsLogFile>0</ITMportsLogFile>
+        <ITMlogFile>$PROJ_DIR$\ITM.log</ITMlogFile>
+    </SWOTraceHWSettings>
+    <struct_types>
+        <Fmt0>SDMMC_TypeDef-STA	4	0</Fmt0>
+        <Fmt1>struct rsi_in_addr-s_addr	4	0</Fmt1>
+    </struct_types>
+    <array_types>
+        <Fmt0>uint8_t[20]	3	0</Fmt0>
+    </array_types>
+    <Trace2>
+        <Enabled>0</Enabled>
+        <ShowSource>0</ShowSource>
+    </Trace2>
+    <SWOTraceWindow>
+        <PcSampling>0</PcSampling>
+        <InterruptLogs>0</InterruptLogs>
+        <ForcedTimeStamps>0</ForcedTimeStamps>
+        <EventCPI>0</EventCPI>
+        <EventEXC>0</EventEXC>
+        <EventFOLD>0</EventFOLD>
+        <EventLSU>0</EventLSU>
+        <EventSLEEP>0</EventSLEEP>
+    </SWOTraceWindow>
+    <DataLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+    </DataLog>
+    <InterruptLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </InterruptLog>
+    <EventLog>
+        <Title_0>Ch3</Title_0>
+        <Symbol_0>0 0 1</Symbol_0>
+        <Title_1>Ch2</Title_1>
+        <Symbol_1>0 0 1</Symbol_1>
+        <Title_2>Ch1</Title_2>
+        <Symbol_2>0 0 1</Symbol_2>
+        <Title_3>Ch0</Title_3>
+        <Symbol_3>0 0 1</Symbol_3>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </EventLog>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <DriverProfiling>
+        <Enabled>0</Enabled>
+        <Mode>3</Mode>
+        <Graph>0</Graph>
+        <Symbiont>0</Symbiont>
+        <Exclusions />
+    </DriverProfiling>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Bp0>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\00_Common\src\git_eth.c}.112.2" 0 0 1 "" 0 "" 0</Bp0>
+        <Bp1>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\11_CycloneTCP\cyclone_tcp\core\net.c}.981.10" 0 0 1 "" 0 "" 0</Bp1>
+        <Bp2>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\00_Common\src\git_function_list.c}.2314.12" 0 0 1 "" 0 "" 0</Bp2>
+        <Bp3>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\10_RS9116\SDK_2.6.0.34\hal\rsi_hal_mcu_interrupt.c}.100.10" 0 0 1 "" 0 "" 0</Bp3>
+        <Bp4>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\Core\Src\stm32h7xx_it.c}.280.3" 0 0 1 "" 0 "" 0</Bp4>
+        <Bp5>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\10_RS9116\SDK_2.6.0.34\sapi\driver\rsi_scheduler.c}.162.22" 0 0 1 "" 0 "" 0</Bp5>
+        <Bp6>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\10_RS9116\SDK_2.6.0.34\sapi\driver\rsi_scheduler.c}.92.1" 0 0 1 "" 0 "" 0</Bp6>
+        <Bp7>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c}.62.9" 0 0 1 "" 0 "" 0</Bp7>
+        <Bp8>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c}.64.11" 0 0 1 "" 0 "" 0</Bp8>
+        <Bp9>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mmc.c}.387.19" 0 0 1 "" 0 "" 0</Bp9>
+        <Bp10>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\Core\Src\main.c}.162.3" 0 0 1 "" 0 "" 0</Bp10>
+        <Bp11>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mmc.c}.467.12" 0 0 1 "" 0 "" 0</Bp11>
+        <Bp12>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\Core\Src\freertos.c}.563.8" 0 0 1 "" 0 "" 0</Bp12>
+        <Bp13>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mmc.c}.3422.7" 0 0 1 "" 0 "" 0</Bp13>
+        <Bp14>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mmc.c}.3430.5" 0 0 1 "" 0 "" 0</Bp14>
+        <Bp15>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\Core\Src\main.c}.111.3" 0 0 1 "" 0 "" 0</Bp15>
+        <Bp16>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\Core\Src\main.c}.103.3" 0 0 1 "" 0 "" 0</Bp16>
+        <Count>17</Count>
+    </Breakpoints2>
+    <Aliases>
+        <Count>0</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+</settings>

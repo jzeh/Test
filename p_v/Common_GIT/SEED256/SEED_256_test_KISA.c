@@ -1,0 +1,61 @@
+/*******************************************************************************
+*	This source code "SEED_256_test_KISA.c" is not the official souce code.
+*	This source code is the only example.
+*	This source code show how the encryption and decryption functions are operated.
+*	This source code can compare the standard test vector with the result.
+*
+*******************************************************************************/
+
+#include "SEED_256_KISA.h"
+
+//void main()
+//{
+//	DWORD pdwRoundKey[48];
+//	// TEST 1
+//	BYTE pbUserKey[32] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+//		                  0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+//	BYTE pbData[16]    = {0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0A, 0x0B, 0x0C, 0x0D, 0x0E, 0x0F};
+//	// TEST 2
+////	BYTE pbUserKey[32] = {0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0a, 0x0b, 0x0c, 0x0d, 0x0e, 0x0f,
+////		                  0x10, 0x11, 0x12, 0x13, 0x14, 0x15, 0x16, 0x17, 0x18, 0x19, 0x1a, 0x1b, 0x1c, 0x1d, 0x1e, 0x1f};
+////	BYTE pbData[16]    = {0x00};
+//	// TEST 3
+////	BYTE pbUserKey[32] = {0x47, 0x06, 0x48, 0x08, 0x51, 0xe6, 0x1b, 0xe8, 0x5d, 0x74, 0xbf, 0xb3, 0xfd, 0x95, 0x61, 0x85,
+////		                  0xa7, 0x08, 0xc1, 0x28, 0x17, 0xe8, 0xcb, 0x45, 0x41, 0xa1, 0xb7, 0x15, 0xed, 0xa1, 0xb2, 0xa3};
+////	BYTE pbData[16]    = {0x83, 0xa2, 0xf8, 0xa2, 0x88, 0x64, 0x1f, 0xb9, 0xa4, 0xe9, 0xa5, 0xcc, 0x2f, 0x13, 0x1c, 0x7d};
+//	int i;
+//
+//// Print user secret key
+//	printf ("Key        : ");
+//	for (i=0;i<32;i++)	{printf("%02X ",pbUserKey[i]);}
+//
+//// Print plaintext to be encrypted
+//	printf ("\nPlaintext  : ");
+//	for (i=0;i<16;i++)	{printf("%02X ",pbData[i]);}
+//
+//// Derive roundkeys from user secret key
+//	SeedRoundKey(pdwRoundKey, pbUserKey);
+//
+//// Encryption
+//	printf ("\n\nEncryption....\n");
+//	/* Encryption Algorithm */
+//	SeedEncrypt(pbData, pdwRoundKey);
+//
+//// print encrypted data(ciphertext)
+//	printf ("Ciphertext : ");
+//	for (i=0;i<16;i++)	{printf("%02X ",pbData[i]);}
+//
+//// Decryption
+//	printf ("\n\nDecryption....\n");
+//	/* Decryption Algorithm */
+//	SeedDecrypt(pbData, pdwRoundKey);
+//
+//// Print decrypted data(plaintext)
+//	printf ("Plaintext  : ");
+//	for (i=0;i<16;i++)	{printf("%02X ",pbData[i]);}
+//
+//// Print round keys at round i
+//	printf ("\n\nRound Key  : \n");
+//	for (i=0;i<24;i++)	{printf("K%2d,0 : %08X\tK%2d,1 : %08X\n",i+1,pdwRoundKey[2*i], i+1,pdwRoundKey[2*i+1]);}
+//
+//}

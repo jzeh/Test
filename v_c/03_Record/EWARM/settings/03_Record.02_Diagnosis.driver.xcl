@@ -1,0 +1,19 @@
+"--endian=little" 
+
+"--cpu=Cortex-M7" 
+
+"--fpu=VFPv5_D16" 
+
+"-p" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CONFIG\debugger\ST\STM32H743II.ddf" 
+
+"--semihosting" 
+
+"--device=STM32H743II" 
+
+"--multicore_nr_of_cores=1" 
+
+
+
+

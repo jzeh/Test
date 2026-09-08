@@ -1,0 +1,114 @@
+# ==============================================================================
+# BDC (Bi-Direction Charger) - CI 빌드 파이프라인
+#
+# 대상 MCU : STM32H7S3 / 툴체인 : IAR EWARM 9.50.2
+# 워크스페이스 : evcd_test/EWARM/Project.eww
+#   빌드 대상 3개 : ExtMemLoader / Boot / Appli
+#
+# 실행 Runner : windows (사내 공용 IAR Windows Self-hosted Runner)
+#   * win_per_iar 러너(170034N06)에는 IAR 6.5/8.2만 설치되어 있어 9.x를 못 찾고 실패했음.
+#     windows 태그 러너에는 IAR Build Tools Arm 9.40.2 가 설치되어 있어 이쪽으로 전환.
+#
+# IAR 경로는 .iar_setup 블록이 Runner 에서 자동 탐색합니다.
+#   - 우선 아래 후보 경로들을 확인
+#   - 없으면 IAR Systems 폴더에서 9.x IarBuild.exe 를 검색
+#   - 그래도 없으면 설치된 IAR 목록을 로그에 출력하고 실패
+# ==============================================================================
+
+include:
+  - project: devops/pipeline
+    file:
+      - workflow/git-common-flow.gitlab-ci.yml
+      - template/security/sast-semgrep.gitlab-ci.yml
+      - template/security/secret_detection.gitlab-ci.yml
+      - template/common/zip_publish.gitlab-ci.yml
+      #- template/security/coverity_windows.gitlab-ci.yml
+      #- template/common/increment_version.gitlab-ci.yml
+
+variables:
+  BUILD_TYPE: ""
+  PACKAGE_VERSION: ""
+
+default:
+  tags:
+    - windows
+
+# IAR 9.50.2 IarBuild.exe 경로 탐색 + IarBuild 별칭 등록 (PowerShell)
+# 각 빌드 잡의 script 첫 줄에서 재사용.
+.iar_setup: &iar_setup |
+  $targets = @(
+    'C:\Program Files\IAR Systems\Embedded Workbench 9.50.2\common\bin\IarBuild.exe',
+    'C:\Program Files\IAR Systems\Embedded Workbench 9.50\common\bin\IarBuild.exe',
+    'C:\Program Files\IAR Systems\Embedded Workbench 9.2\common\bin\IarBuild.exe',
+    'C:\Program Files\IAR Systems\Build Tools Arm 9.50.2\common\bin\IarBuild.exe',
+    'C:\Program Files\IAR Systems\Build Tools Arm 9.40.2\common\bin\IarBuild.exe',
+    'C:\Program Files (x86)\IAR Systems\Build Tools Arm 9.40.2\common\bin\IarBuild.exe',
+    'C:\Program Files (x86)\IAR Systems\Embedded Workbench 9.50.2\common\bin\IarBuild.exe'
+  )
+  $iar = $null
+  foreach ($t in $targets) { if (Test-Path $t) { $iar = $t; break } }
+  if (-not $iar) {
+    $roots = @('C:\Program Files\IAR Systems','C:\Program Files (x86)\IAR Systems') | Where-Object { Test-Path $_ }
+    $found = @()
+    if ($roots) { $found = Get-ChildItem $roots -Recurse -Filter 'IarBuild.exe' -ErrorAction SilentlyContinue }
+    $iar = ($found | Where-Object { $_.FullName -match '9\.' } | Sort-Object FullName -Descending | Select-Object -First 1).FullName
+    if (-not $iar) {
+      Write-Host '=== 이 Runner 에 설치된 IarBuild.exe 목록 ==='
+      $found | ForEach-Object { Write-Host $_.FullName }
+      Write-Host '=== IAR Systems 폴더 목록 ==='
+      if ($roots) { Get-ChildItem $roots -Directory -ErrorAction SilentlyContinue | ForEach-Object { Write-Host $_.FullName } }
+      throw 'IAR 9.x IarBuild.exe 를 찾지 못했습니다. win_per_iar Runner 에 IAR 9.50.2 설치 여부를 확인하세요.'
+    }
+  }
+  Write-Host "Using IarBuild: $iar"
+  Set-Alias -Name IarBuild -Value $iar -Scope Global
+
+# ---- ExtMemLoader (외장 메모리 로더) ----------------------------------------
+build-project:extmemloader:
+  stage: build
+  script:
+    - *iar_setup
+    - cd "evcd_test\EWARM\ExtMemLoader"
+    - IarBuild "EVCD_Test_ExtMemLoader.ewp" -clean "EVCD_Test_ExtMemLoader"
+    - IarBuild "EVCD_Test_ExtMemLoader.ewp" -make  "EVCD_Test_ExtMemLoader"
+    - echo "End Build - ExtMemLoader"
+  artifacts:
+    expire_in: 2 days
+    paths:
+      - evcd_test\EWARM\ExtMemLoader\EVCD_Test_ExtMemLoader\Exe\EVCD_Test_ExtMemLoader.out
+
+# ---- Boot (부트로더) --------------------------------------------------------
+build-project:boot:
+  stage: build
+  script:
+    - *iar_setup
+    - cd "evcd_test\EWARM\Boot"
+    - IarBuild "EVCD_Test_Boot.ewp" -clean "EVCD_Test_Boot"
+    - IarBuild "EVCD_Test_Boot.ewp" -make  "EVCD_Test_Boot"
+    - echo "End Build - Boot"
+  artifacts:
+    expire_in: 2 days
+    paths:
+      - evcd_test\EWARM\Boot\EVCD_Test_Boot\Exe\EVCD_Test_Boot.out
+      - evcd_test\EWARM\Boot\EVCD_Test_Boot\Exe\EVCD_Test_Boot.bin
+
+# ---- Appli (응용 펌웨어) ----------------------------------------------------
+build-project:appli:
+  stage: build
+  script:
+    - *iar_setup
+    - cd "evcd_test\EWARM\Appli"
+    - IarBuild "EVCD_Test_Appli.ewp" -clean "EVCD_Test_Appli"
+    - IarBuild "EVCD_Test_Appli.ewp" -make  "EVCD_Test_Appli"
+    - Write-Host "Build completed for version $PACKAGE_VERSION"
+    - echo "End Build - Appli"
+  artifacts:
+    expire_in: 2 days
+    paths:
+      - evcd_test\EWARM\Appli\EVCD_Test_Appli\Exe\EVCD_Test_Appli.out
+      - evcd_test\EWARM\Appli\EVCD_Test_Appli\Exe\EVCD_Test_Appli.bin
+
+# zip 배포는 릴리스 단계에서 사용 (지금은 비활성)
+deploy:zip:
+  rules:
+    - when: never

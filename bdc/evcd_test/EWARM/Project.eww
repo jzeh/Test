@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+  <project>
+    <path>$WS_DIR$\ExtMemLoader\EVCD_Test_ExtMemLoader.ewp</path>
+  </project><project>
+    <path>$WS_DIR$\Boot\EVCD_Test_Boot.ewp</path>
+  </project><project>
+    <path>$WS_DIR$\Appli\EVCD_Test_Appli.ewp</path>
+  </project>
+  <batchBuild />
+</workspace>

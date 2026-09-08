@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<settings>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <StLinkDriver>
+        <stlinkserialNo>42161543</stlinkserialNo>
+        <stlinkfoundProbes />
+        <stlinkResetStyle>0</stlinkResetStyle>
+        <stlinkResetStrategy>0</stlinkResetStrategy>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+    </StLinkDriver>
+    <DebugChecksum>
+        <Checksum>2785960260</Checksum>
+    </DebugChecksum>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <CodeCoverage>
+        <Enabled>_ 0</Enabled>
+    </CodeCoverage>
+    <Disassembly>
+        <MixedMode>1</MixedMode>
+        <InstrCount>0</InstrCount>
+    </Disassembly>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <SWOTraceHWSettings>
+        <OverrideDefaultClocks>0</OverrideDefaultClocks>
+        <CpuClock>240000000</CpuClock>
+        <ClockAutoDetect>0</ClockAutoDetect>
+        <ClockWanted>2000000</ClockWanted>
+        <JtagSpeed>2000000</JtagSpeed>
+        <Prescaler>120</Prescaler>
+        <TimeStampPrescIndex>0</TimeStampPrescIndex>
+        <TimeStampPrescData>0</TimeStampPrescData>
+        <PcSampCYCTAP>1</PcSampCYCTAP>
+        <PcSampPOSTCNT>15</PcSampPOSTCNT>
+        <PcSampIndex>0</PcSampIndex>
+        <DataLogMode>0</DataLogMode>
+        <ITMportsEnable>0</ITMportsEnable>
+        <ITMportsTermIO>0</ITMportsTermIO>
+        <ITMportsLogFile>0</ITMportsLogFile>
+        <ITMlogFile>$PROJ_DIR$\ITM.log</ITMlogFile>
+    </SWOTraceHWSettings>
+    <struct_types>
+        <Fmt0>PTmsgPkt_t-DataSize	4	0</Fmt0>
+        <Fmt1>PTmsgPkt_t-ExtraDataIndex	4	0</Fmt1>
+        <Fmt2>PTmsgPkt_t-ProtocolID	4	0</Fmt2>
+        <Fmt3>PTmsgPkt_t-Timestamp	4	0</Fmt3>
+        <Fmt4>RTC_TimeTypeDef-Minutes	3	0</Fmt4>
+        <Fmt5>RTC_TimeTypeDef-Seconds	3	0</Fmt5>
+        <Fmt6>SDMMC_TypeDef-STA	4	0</Fmt6>
+        <Fmt7>stCommPkt-mCS	4	0</Fmt7>
+        <Fmt8>stCommPkt-mCurFrame	4	0</Fmt8>
+        <Fmt9>stCommPkt-mFuncID	4	0</Fmt9>
+        <Fmt10>stGITSetConfig-nDataRate	3	0</Fmt10>
+        <Fmt11>stGITSetConfig-nP3Max	3	0</Fmt11>
+        <Fmt12>stMsgClst-mLen	4	0</Fmt12>
+        <Fmt13>stMsgClst-mMod	4	0</Fmt13>
+        <Fmt14>stRECORD_HW_SET-nCommRelay	4	0</Fmt14>
+        <Fmt15>struct rsi_in_addr-s_addr	4	0</Fmt15>
+    </struct_types>
+    <array_types>
+        <Fmt0>u32[2]	4	0</Fmt0>
+        <Fmt1>uint8_t[13]	3	0</Fmt1>
+        <Fmt2>uint8_t[16]	3	0</Fmt2>
+        <Fmt3>uint8_t[200]	3	0</Fmt3>
+        <Fmt4>uint8_t[20]	3	0</Fmt4>
+        <Fmt5>uint8_t[4]	3	0</Fmt5>
+    </array_types>
+    <watch_formats>
+        <Fmt0>{W}42:diag_test_num	3	0</Fmt0>
+        <Fmt1>{W}42:g_ulProtocolFlag	4	0</Fmt1>
+        <Fmt2>{W}42:g_ulProtocolID	4	0</Fmt2>
+        <Fmt3>{W}42:gsFwInfo.mucCurrentMode	3	0</Fmt3>
+    </watch_formats>
+    <Trace2>
+        <Enabled>0</Enabled>
+        <ShowSource>0</ShowSource>
+    </Trace2>
+    <SWOTraceWindow>
+        <PcSampling>0</PcSampling>
+        <InterruptLogs>0</InterruptLogs>
+        <ForcedTimeStamps>0</ForcedTimeStamps>
+        <EventCPI>0</EventCPI>
+        <EventEXC>0</EventEXC>
+        <EventFOLD>0</EventFOLD>
+        <EventLSU>0</EventLSU>
+        <EventSLEEP>0</EventSLEEP>
+    </SWOTraceWindow>
+    <DataLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+    </DataLog>
+    <InterruptLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </InterruptLog>
+    <EventLog>
+        <Title_0>Ch3</Title_0>
+        <Symbol_0>0 0 1</Symbol_0>
+        <Title_1>Ch2</Title_1>
+        <Symbol_1>0 0 1</Symbol_1>
+        <Title_2>Ch1</Title_2>
+        <Symbol_2>0 0 1</Symbol_2>
+        <Title_3>Ch0</Title_3>
+        <Symbol_3>0 0 1</Symbol_3>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </EventLog>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <DriverProfiling>
+        <Enabled>0</Enabled>
+        <Mode>3</Mode>
+        <Graph>0</Graph>
+        <Symbiont>0</Symbiont>
+        <Exclusions />
+    </DriverProfiling>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Bp0>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\00_Common\src\git_rs9116.c}.2505.23" 0 0 1 "" 0 "" 0</Bp0>
+        <Bp1>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\00_Common\src\git_rs9116.c}.2364.2" 0 0 1 "" 0 "" 0</Bp1>
+        <Bp2>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\00_Common\src\git_rs9116.c}.2364.2" 0 0 1 "" 0 "" 0</Bp2>
+        <Bp3>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\00_Common\src\git_rs9116.c}.2147.5" 0 0 1 "" 0 "" 0</Bp3>
+        <Bp4>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\00_Common\src\git_function_list.c}.10403.1" 0 0 1 "" 0 "" 0</Bp4>
+        <Bp5>_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\..\00_Common\src\git_mmc.c}.232.2" 0 0 1 "" 0 "" 0</Bp5>
+        <Count>6</Count>
+    </Breakpoints2>
+    <Aliases>
+        <A0>_ "Z:\9. VCI3\레코드제거\vci3_Record_240703_GANG\02_Diagnosis\Core\Src\main.c" ""</A0>
+        <Count>1</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+</settings>

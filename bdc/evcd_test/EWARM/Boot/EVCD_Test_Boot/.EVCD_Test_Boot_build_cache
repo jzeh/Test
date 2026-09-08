@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>Z:\11_Work\00_Git_Source\04_EV\bdc_rev1\bdc\evcd_test\EWARM\Boot\EVCD_Test_Boot\Exe\EVCD_Test_Boot.out</Path>
+            <Output>
+                <Path>Z:\11_Work\00_Git_Source\04_EV\bdc_rev1\bdc\evcd_test\EWARM\Boot\EVCD_Test_Boot\List\EVCD_Test_Boot.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>

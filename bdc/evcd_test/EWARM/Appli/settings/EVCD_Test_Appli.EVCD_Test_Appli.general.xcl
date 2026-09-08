@@ -1,0 +1,21 @@
+"Z:\Program Files\IAR Systems\Embedded Workbench 9.2\arm\bin\armPROC.dll" 
+
+"Z:\Program Files\IAR Systems\Embedded Workbench 9.2\arm\bin\armSTLINK.dll" 
+
+"Z:\11_Work\00_Git_Source\04_EV\bdc_rev1\bdc\evcd_test\EWARM\Appli\EVCD_Test_Appli\Exe\EVCD_Test_Appli.out" 
+
+--plugin="Z:\Program Files\IAR Systems\Embedded Workbench 9.2\arm\bin\armLibSupportUniversal.dll" 
+
+--device_macro="Z:\Program Files\IAR Systems\Embedded Workbench 9.2\arm/config/debugger/ST/STM32H7RS.dmac" 
+
+--device_macro="Z:\Program Files\IAR Systems\Embedded Workbench 9.2\arm/config/debugger/ST/STM32H7RS_DBG.dmac" 
+
+--device_macro="Z:\Program Files\IAR Systems\Embedded Workbench 9.2\arm/config/debugger/ST/STM32H7RS_OB.dmac" 
+
+--device_macro="Z:\Program Files\IAR Systems\Embedded Workbench 9.2\arm/config/debugger/ST/STM32H7RS_TRACE.dmac" 
+
+--flash_loader="Z:\Program Files\IAR Systems\Embedded Workbench 9.2\arm/config/flashloader/ST/FlashSTM32H7R-Sxx8.board" 
+
+
+
+

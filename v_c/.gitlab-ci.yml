@@ -1,0 +1,124 @@
+include:
+  - project: devops/pipeline
+    file: 
+      - workflow/git-common-flow.gitlab-ci.yml
+      - template/security/sast-semgrep.gitlab-ci.yml
+      - template/security/secret_detection.gitlab-ci.yml
+      #- template/security/coverity_linux.gitlab-ci.yml
+      #- template/common/jira_transition.gitlab-ci.yml
+      - template/common/zip_publish.gitlab-ci.yml
+      #- template/security/coverity_windows.gitlab-ci.yml
+      - template/common/increment_version.gitlab-ci.yml
+
+default:
+  tags:
+    - win_per_iar
+
+build-project:
+  stage: build
+  script:    
+    - cd 02_Diagnosis/EWARM #ewp 파일 위치 
+    #- Set-Alias -Name 'IarBuild' -Value 'C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.5\common\bin\IarBuild.exe'
+    - Set-Alias -Name 'IarBuild' -Value 'C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\IarBuild.exe'
+    # - Set-Alias -Name 'IarBuild' -Value 'C:\Program Files\IAR Systems\Build Tools Arm 9.40.2\common\bin\iarBuild.exe'
+    - IarBuild 02_Diagnosis.ewp -clean 02_Diagnosis #ewp 파일 이름
+    - IarBuild 02_Diagnosis.ewp -make 02_Diagnosis  #ewp 파일 이름
+    # - C:\GIT\WintigerTool\WintigerTools.exe --0 "02_Diagnosis/Exe/vci3_main.bin"
+    #- Z:\GitLab_Runner\GIT\WintigerTool\WintigerTools.exe --0 "02_Diagnosis/Exe/vci3_main.bin"
+    #- Z:\GitLab_Runner\GIT\GITCryptoTool\GITCryptoTool.exe --0 "02_Diagnosis/Exe/vci3_main.bin"
+    - Z:\GitLab_Runner\GIT\GITCryptoTool\G3.exe u "02_Diagnosis/Exe/vci3_main.bin" "02_Diagnosis/Exe/V3M.gwmf"
+  artifacts:
+    expire_in: 2 days
+    paths:
+    - 02_Diagnosis/EWARM/02_Diagnosis/Exe/vci3_main.bin #압축될 파일 경로 설정 Exe 까지하면 Exe폴더 안의 파일 모두 압축됨
+    - 02_Diagnosis/EWARM/02_Diagnosis/Exe/V3M.gwmf
+
+build-project:bootloader:
+  stage: build
+  script:
+    - cd 01_Bootloader/EWARM #ewp 파일 위치 
+    #- Set-Alias -Name 'IarBuild' -Value 'C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.5\common\bin\IarBuild.exe' #IAR 버전 선택
+    - Set-Alias -Name 'IarBuild' -Value 'C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\IarBuild.exe'
+    # - Set-Alias -Name 'IarBuild' -Value 'C:\Program Files\IAR Systems\Build Tools Arm 9.40.2\common\bin\iarBuild.exe'
+    - IarBuild 01_Bootloader.ewp -clean 01_Bootloader #ewp 파일 이름
+    - IarBuild 01_Bootloader.ewp -make 01_Bootloader  #ewp 파일 이름
+    # - C:\GIT\WintigerTool\WintigerTools.exe --0 "01_Bootloader/Exe/vci3_bootloader.bin"
+    #- Z:\GitLab_Runner\GIT\WintigerTool\WintigerTools.exe --0 "02_Diagnosis/Exe/vci3_main.bin"
+    #- Z:\GitLab_Runner\GIT\GITCryptoTool\GITCryptoTool.exe --0 "01_Bootloader/EWARM/01_Bootloader/Exe/vci3_bootloader.bin"
+    - Z:\GitLab_Runner\GIT\GITCryptoTool\G3.exe u "01_Bootloader/Exe/vci3_bootloader.bin" "01_Bootloader/Exe/VBL.gwmf"
+  artifacts:
+    expire_in: 2 days
+    paths:
+    - 01_Bootloader/EWARM/01_Bootloader/Exe/vci3_bootloader.bin #압축될 파일 경로 설정 Exe 까지하면 Exe폴더 안의 파일 모두 압축됨
+    - 01_Bootloader/EWARM/01_Bootloader/Exe/VBL.gwmf
+
+build-project:record:
+  stage: build
+  script:
+    - cd 03_Record/EWARM #ewp 파일 위치 
+    - Set-Alias -Name 'IarBuild' -Value 'C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\IarBuild.exe'
+    - IarBuild 03_Record.ewp -clean 03_Record #ewp 파일 이름
+    - IarBuild 03_Record.ewp -make 03_Record  #ewp 파일 이름
+    - Z:\GitLab_Runner\GIT\GITCryptoTool\G3.exe u "03_Record/Exe/vci3_record.bin" "03_Record/Exe/V3IS.gwmf"
+  artifacts:
+    expire_in: 2 days
+    paths:
+    - 03_Record/EWARM/03_Record/Exe/vci3_record.bin
+    - 03_Record/EWARM/03_Record/Exe/V3IS.gwmf
+
+deploy:zip:
+  rules:
+    - when: never
+
+deploy:zip:binary:
+  extends: .deploy:zip
+  variables:
+    PACKAGE_NAME: "vci3_bin" #압축파일 이름 설정
+    SOURCE_ZIP_PATH: "build"
+    TARGET_ZIP_FILE: "vci3_bin.zip" #압축파일 이름 설정
+  before_script:
+    - mkdir -p build
+    - mv 01_Bootloader/EWARM/01_Bootloader/Exe/vci3_bootloader.bin build/ #만들어지 파일 이동 
+    - mv 02_Diagnosis/EWARM/02_Diagnosis/Exe/vci3_main.bin build/ #만들어지 파일 이동
+    - mv 03_Record/EWARM/03_Record/Exe/vci3_record.bin build/
+
+deploy:zip:encryption:
+  extends: .deploy:zip
+  variables:
+    PACKAGE_NAME: "vci3_gwmf" #압축파일 이름 설정
+    SOURCE_ZIP_PATH: "build"
+    TARGET_ZIP_FILE: "vci3_gwmf.zip" #압축파일 이름 설정
+  before_script:
+    - mkdir -p build
+    - mv 02_Diagnosis/EWARM/02_Diagnosis/Exe/V3M.gwmf build/
+    - mv 01_Bootloader/EWARM/01_Bootloader/Exe/VBL.gwmf build/ 
+    - mv 03_Record/EWARM/03_Record/Exe/V3IS.gwmf build/
+
+#coverity:
+#  image: registry.gitlab.com/ig-devops-kit/images/gcc:10.3-2021.10
+#  script:
+#    # set compile info for coverity
+#    - cov-configure.exe --comptype iar_cxx:arm --compiler iccarm --template
+#   
+#    - cd 02_Diagnosis/EWARM #ewp 파일 위치 
+#    #- Set-Alias -Name 'IarBuild' -Value 'C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.5\common\bin\IarBuild.exe' #IAR 버전 선택
+#    - Set-Alias -Name 'IarBuild' -Value 'C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\IarBuild.exe'
+#    #- Set-Alias -Name 'IarBuild' -Value 'C:\Program Files\IAR Systems\Build Tools Arm 9.40.2\common\bin\iarBuild.exe'
+#    - IarBuild 02_Diagnosis.ewp -clean 02_Diagnosis #ewp파일 이름 변경
+
+#    - cov-build --dir $CI_PROJECT_DIR\idir IarBuild 02_Diagnosis.ewp -make 02_Diagnosis #ewp파일 이름 변경
+#    - cov-analyze --dir $CI_PROJECT_DIR\idir
+#    - cov-commit-defects --dir $CI_PROJECT_DIR\idir --url $COVERITY_URL --user $COVERITY_USER --stream $COVERITY_STREAM --password=$COVERITY_PASSPHRASE
+
+#coverity:bootloader:
+#  extends: coverity
+#  script:
+#    - cd 01_Bootloader/EWARM #ewp 파일 위치
+    #- Set-Alias -Name 'IarBuild' -Value 'C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.5\common\bin\IarBuild.exe' #IAR 버전 선택
+#    - Set-Alias -Name 'IarBuild' -Value 'C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\IarBuild.exe'
+    #- Set-Alias -Name 'IarBuild' -Value 'C:\Program Files\IAR Systems\Build Tools Arm 9.40.2\common\bin\iarBuild.exe'
+#    - IarBuild 01_Bootloader.ewp -clean 01_Bootloader #ewp파일 이름 변경
+
+#    - cov-build --dir $CI_PROJECT_DIR\idir IarBuild 01_Bootloader.ewp -make 01_Bootloader #ewp파일 이름 변경
+#    - cov-analyze --dir $CI_PROJECT_DIR\idir
+#    - cov-commit-defects --dir $CI_PROJECT_DIR\idir --url $COVERITY_URL --user $COVERITY_USER --stream $COVERITY_STREAM --password=$COVERITY_PASSPHRASE

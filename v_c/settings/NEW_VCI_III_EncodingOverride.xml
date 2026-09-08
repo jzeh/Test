@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userOverrides>
+    <override>
+        <path>Z:\5. work\CDP\CDP_VCI\vci3\00_Common\inc\git_sha1.h</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>Z:\5. work\CDP\CDP_VCI\vci3\00_Common\inc\typedef.h</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>Z:\5. work\CDP\CDP_VCI\vci3\00_Common\src\git_ListDiag.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>Z:\5. work\CDP\CDP_VCI\vci3\00_Common\src\git_global.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>Z:\5. work\CDP\CDP_VCI\vci3\00_Common\src\git_mqtt_PubMsg.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>Z:\5. work\CDP\CDP_VCI\vci3\00_Common\src\git_protocol.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>Z:\5. work\CDP\CDP_VCI\vci3\00_Common\src\git_rs9116.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>Z:\5. work\CDP\CDP_VCI\vci3\00_Common\src\git_sha1.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>Z:\5. work\CDP\CDP_VCI\vci3\00_Common\src\git_vci.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>Z:\5. work\CDP\CDP_VCI\vci3\00_Common\src\git_websocket.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>Z:\5. work\CDP\CDP_VCI\vci3\02_Diagnosis\USB_DEVICE\App\usb_device.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>Z:\5. work\CDP\CDP_VCI\vci3\12_Recording\git_trigger_bt_handler.c</path>
+        <encoding>System</encoding>
+    </override>
+</userOverrides>

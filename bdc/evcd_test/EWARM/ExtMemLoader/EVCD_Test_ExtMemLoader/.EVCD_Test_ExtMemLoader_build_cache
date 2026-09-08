@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>Z:\Work\00_Git_Source\05_EV\bdc\evcd_test\EWARM\ExtMemLoader\EVCD_Test_ExtMemLoader\Exe\EVCD_Test_ExtMemLoader.out</Path>
+            <Output>
+                <Path>Z:\Work\00_Git_Source\05_EV\bdc\evcd_test\EWARM\ExtMemLoader\EVCD_Test_ExtMemLoader\List\EVCD_Test_ExtMemLoader.map</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>E:\11_Work\00_Git_Source\workspace\evcd\evcd_test\EWARM\ExtMemLoader\EVCD_Test_ExtMemLoader\Exe\EVCD_Test_ExtMemLoader.out</Path>
+            <Output>
+                <Path>E:\11_Work\00_Git_Source\workspace\evcd\evcd_test\EWARM\ExtMemLoader\EVCD_Test_ExtMemLoader\List\EVCD_Test_ExtMemLoader.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>

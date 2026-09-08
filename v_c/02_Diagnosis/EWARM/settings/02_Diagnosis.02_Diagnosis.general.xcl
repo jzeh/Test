@@ -1,0 +1,21 @@
+"Z:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\bin\armproc.dll" 
+
+"Z:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\bin\armstlink2.dll" 
+
+"Z:\11_Work\00_Git_Source\02_Diagnosis\CDP-git\vci3_cdp_project\02_Diagnosis\EWARM\02_Diagnosis\Exe\vci3_main.out" 
+
+--plugin="Z:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\bin\armbat.dll" 
+
+--device_macro="Z:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\config\debugger\ST\STM32H7xx.dmac" 
+
+--device_macro="Z:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\config\debugger\ST\STM32H7xx_DBG.dmac" 
+
+--device_macro="Z:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\config\debugger\ST\STM32H7xx_OB.dmac" 
+
+--device_macro="Z:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\config\debugger\ST\STM32H7xx_TRACE.dmac" 
+
+--flash_loader="Z:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\config\flashloader\ST\FlashSTM32H753xI.board" 
+
+
+
+

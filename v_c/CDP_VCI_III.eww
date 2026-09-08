@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\01_Bootloader\EWARM\01_Bootloader.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\02_Diagnosis\EWARM\02_Diagnosis.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\03_Record\EWARM\03_Record.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>

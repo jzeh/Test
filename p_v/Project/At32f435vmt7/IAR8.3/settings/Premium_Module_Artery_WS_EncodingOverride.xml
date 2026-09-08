@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userOverrides>
+    <override>
+        <path>Z:\11_Work\00_Git_Source\01_Connectivity\premium_integrated\Autolink_main\AutolinkConfig.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>Z:\11_Work\00_Git_Source\01_Connectivity\premium_integrated\Autolink_main\Autolink_Manager.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>Z:\11_Work\00_Git_Source\01_Connectivity\premium_integrated\Autolink_main\main.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>Z:\11_Work\00_Git_Source\01_Connectivity\premium_integrated\Common_GIT\GIT_OemInterface.c</path>
+        <encoding>System</encoding>
+    </override>
+</userOverrides>
